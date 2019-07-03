@@ -1,2 +1,7 @@
 # python-samples
-this is a repository with a lot of python useful samples
+Repository contains different examples written in python.
+----------
+- `argument_parsing`
+  
+  *simple command line argument parsing example*
+
