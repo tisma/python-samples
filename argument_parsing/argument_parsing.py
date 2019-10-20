@@ -8,7 +8,9 @@ def get_options(args=sys.argv[1:]):
     parser.add_argument("-i", "--input", help="Your input file.")
     parser.add_argument("-o", "--output", help="Your destination output file.")
     parser.add_argument("-n", "--number", help="A number.", type=int)
-    parser.add_argument("-v", "--verbose", dest='verbose', action='store_true', help="Verbose mode.")
+    parser.add_argument(
+        "-v", "--verbose", dest="verbose", action="store_true", help="Verbose mode."
+    )
     options = parser.parse_args(args)
     return options
 
@@ -25,6 +27,5 @@ def main():
     print(options.number)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-
